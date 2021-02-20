@@ -11,11 +11,11 @@ type Level struct {
 var (
 	level int = 10
 
-	DEBUG = Level{name: "DEBUG", level: 100, prefix: color.CYAN+"DEBUG"}
-	INFO  = Level{name: "INFO", level: 10, prefix: color.YELLOW+"INFO"}
-	WARN  = Level{name: "WARN", level: 2, prefix: color.ORANGE+"WARN"}
-	FATAL = Level{name: "FATAL", level: 1, prefix: color.RED+"FATAL"}
-	ERROR = Level{name: "ERROR", level: 1, prefix: color.RED+"ERROR"}
+	DEBUG = Level{name: "DEBUG", level: 100, prefix: CYAN+"DEBUG"}
+	INFO  = Level{name: "INFO", level: 10, prefix: YELLOW+"INFO"}
+	WARN  = Level{name: "WARN", level: 2, prefix: ORANGE+"WARN"}
+	FATAL = Level{name: "FATAL", level: 1, prefix: RED+"FATAL"}
+	ERROR = Level{name: "ERROR", level: 1, prefix: RED+"ERROR"}
 )
 
 type Formatter struct {
