@@ -24,7 +24,7 @@ type Formatter struct {
 }
 
 func (f Formatter) build() string {
-	return fmt.Sprintf("%s: %s%s", f.level.prefix, color.WHITE, f.text)
+	return fmt.Sprintf("%s: %s%s", f.level.prefix, WHITE, f.text)
 }
 
 func Log(level Level, text string) {
