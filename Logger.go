@@ -1,9 +1,6 @@
 package log
 
-import (
-	"log/color"
-	"fmt"
-)
+import "fmt"
 
 type Level struct {
 	name string
